@@ -1121,7 +1121,7 @@
 
     // Define how to uniquely identify models in the collection.
     modelId: function(attrs, idAttribute) {
-      return attrs[idAttribute || this.model.prototype.idAttribute || 'id'];
+      return attrs[idAttribute || 'id'];
     },
 
     // Get an iterator of all models in this collection.
